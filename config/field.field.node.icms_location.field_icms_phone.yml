@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_icms_phone
+    - node.type.icms_location
+  module:
+    - telephone
+    - telephone_validation
+    - tmgmt_content
+third_party_settings:
+  tmgmt_content:
+    excluded: false
+  telephone_validation:
+    format: 0
+    country: {  }
+id: node.icms_location.field_icms_phone
+field_name: field_icms_phone
+entity_type: node
+bundle: icms_location
+label: Phone
+description: 'A valid phone number including the international prefix.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

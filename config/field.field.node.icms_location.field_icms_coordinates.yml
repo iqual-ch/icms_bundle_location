@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_icms_coordinates
+    - node.type.icms_location
+  module:
+    - geolocation
+    - tmgmt_content
+third_party_settings:
+  tmgmt_content:
+    excluded: false
+id: node.icms_location.field_icms_coordinates
+field_name: field_icms_coordinates
+entity_type: node
+bundle: icms_location
+label: Geocoordinates
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation
