@@ -15,6 +15,7 @@ install:
   - geolocation
   - geolocation_leaflet
   - office_hours
+  - schema_place
 
 config:
   actions:
