@@ -1,4 +1,3 @@
-uuid: d5d4eed8-4f2d-47b7-9d81-1dc986767f9a
 langcode: en
 status: true
 dependencies:
@@ -11,8 +10,6 @@ dependencies:
 third_party_settings:
   tmgmt_content:
     excluded: false
-_core:
-  default_config_hash: agtXhuNCPayE_Wlo5sgHIswn_sPeIJUUcAVjgiZ0ZFo
 id: node.icms_location.field_icms_address
 field_name: field_icms_address
 entity_type: node

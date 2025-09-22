@@ -1,4 +1,3 @@
-uuid: c3be0823-5f83-4034-99d7-9784eaeaa467
 langcode: en
 status: true
 dependencies:
@@ -138,8 +137,6 @@ third_party_settings:
         formatter: closed
         description: 'Edit the page layout and content using the classic interface.'
         required_fields: true
-_core:
-  default_config_hash: hEatOUe0NZvbACGVrCPtLS4NrcPTWL7Sk4WeuwITyPQ
 id: node.icms_location.default
 targetEntityType: node
 bundle: icms_location
