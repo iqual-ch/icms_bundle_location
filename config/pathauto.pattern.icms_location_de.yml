@@ -1,0 +1,32 @@
+langcode: de
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: icms_location_de
+label: 'Locations (DE)'
+type: 'canonical_entities:node'
+pattern: '/standorte/[node:title]'
+selection_criteria:
+  7cd1c7d1-5c34-4e06-b586-ff94d6f6463c:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 7cd1c7d1-5c34-4e06-b586-ff94d6f6463c
+    context_mapping:
+      node: node
+    bundles:
+      icms_location: icms_location
+  ea199f5e-ff49-4d62-89e7-83fcfed57c17:
+    id: language
+    negate: false
+    uuid: ea199f5e-ff49-4d62-89e7-83fcfed57c17
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      de: de
+selection_logic: and
+weight: -6
+relationships:
+  'node:langcode:language':
+    label: Language

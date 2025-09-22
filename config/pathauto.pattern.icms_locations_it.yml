@@ -1,0 +1,32 @@
+langcode: de
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: icms_locations_it
+label: 'Locations (IT)'
+type: 'canonical_entities:node'
+pattern: '/sedi/[node:title]'
+selection_criteria:
+  fb5a9ea9-c8f1-4607-95f2-fdd3ded6a5c2:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: fb5a9ea9-c8f1-4607-95f2-fdd3ded6a5c2
+    context_mapping:
+      node: node
+    bundles:
+      icms_location: icms_location
+  3816a3f4-9c51-4b7d-990f-a2bd85a62847:
+    id: language
+    negate: false
+    uuid: 3816a3f4-9c51-4b7d-990f-a2bd85a62847
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      it: it
+selection_logic: and
+weight: -4
+relationships:
+  'node:langcode:language':
+    label: Language
