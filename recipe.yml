@@ -16,6 +16,8 @@ install:
   - geolocation_leaflet
   - office_hours
   - schema_place
+  # Bundle Logic
+  - icms_bundle_location_logic
 
 config:
   actions:
