@@ -23,5 +23,5 @@
         "drupal/geolocation": "^4.0@beta",
         "drupal/office_hours": "^1.28"
     },
-    "version": "1.x-dev"
+    "version": "1.4.6"
 }
