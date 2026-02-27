@@ -13,8 +13,8 @@ id: node.icms_location.field_icms_topics
 field_name: field_icms_topics
 entity_type: node
 bundle: icms_location
-label: Themen
-description: 'Verwende <em>Themen</em>, um Inhalte nach Thema zu gruppieren und Filter auf der Website zu ermöglichen.'
+label: Topics
+description: 'Use <em>Topics</em> to group content by topic and enable filtering on the website.'
 required: true
 translatable: false
 default_value: {  }
