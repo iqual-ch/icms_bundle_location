@@ -25,70 +25,60 @@ default_value:
     starthours: 700
     endhours: 1200
     comment: ''
-    day_delta: 0
   -
     day: 1
     all_day: false
     starthours: 1300
     endhours: 1700
     comment: ''
-    day_delta: 0
   -
     day: 2
     all_day: false
     starthours: 700
     endhours: 1200
     comment: ''
-    day_delta: 0
   -
     day: 2
     all_day: false
     starthours: 1300
     endhours: 1700
     comment: ''
-    day_delta: 0
   -
     day: 3
     all_day: false
     starthours: 700
     endhours: 1200
     comment: ''
-    day_delta: 0
   -
     day: 3
     all_day: false
     starthours: 1300
     endhours: 1700
     comment: ''
-    day_delta: 0
   -
     day: 4
     all_day: false
     starthours: 700
     endhours: 1200
     comment: ''
-    day_delta: 0
   -
     day: 4
     all_day: false
     starthours: 1300
     endhours: 1700
     comment: ''
-    day_delta: 0
   -
     day: 5
     all_day: false
     starthours: 700
     endhours: 1200
     comment: ''
-    day_delta: 0
   -
     day: 5
     all_day: false
     starthours: 1300
     endhours: 1600
     comment: ''
-    day_delta: 0
 default_value_callback: ''
 settings: {  }
 field_type: office_hours
